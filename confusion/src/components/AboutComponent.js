@@ -81,13 +81,17 @@ function About(props) {
                 </div>
                 <div className="col-12">
                     <Media list>
-                        {props.leaders.map( (leader) => {
-							return (
-								<React.Fragment>
-									<RenderLeader leader={leader} />
-									<br />
-								</React.Fragment>
-							);} )}
+						{
+							props.leaders.map( (leader) => {
+									return (
+										<React.Fragment>
+											<RenderLeader leader={leader} />
+											<br />
+										</React.Fragment>
+									);
+								}
+							)
+						}
                     </Media>
                 </div>
             </div>
