@@ -271,6 +271,24 @@
       "message": "afadsfds",
       "date": "2017-12-04T09:41:49.890Z",
       "id": 1
+    },
+    {
+      "firstname": "Sanford",
+      "lastname": "Pun",
+      "telnum": "54012571",
+      "email": true,
+      "agree": "Email",
+      "contactType": "Bad restaurant.",
+      "id": 2
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "telnum": "",
+      "email": false,
+      "agree": "Tel.",
+      "contactType": "",
+      "id": 3
     }
   ]
 }
